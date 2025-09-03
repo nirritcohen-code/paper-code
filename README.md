@@ -25,9 +25,6 @@ The code enables full reproducibility of the methods for thresholding, binary im
    venv\Scripts\activate      # On Windows
    pip install -r requirements.txt
 2. **Run the workflow scripts**
-- (Optional) Determine thresholds:
-
-python choose_binary_threshold.py
    - (Optional) Determine thresholds: `python choose_binary_threshold.py`  
    - Process and save binary images: `python save_bin_frames.py`  
    - Extract fiber trajectories and features: `python object_tracking.py`
@@ -43,4 +40,4 @@ Alternatively, you can run the entire workflow with:
 
 ---
 
-✦ *Corresponding author: Nirrit Cohen*  
+✦ *Corresponding author: Nirrit Cohen*
